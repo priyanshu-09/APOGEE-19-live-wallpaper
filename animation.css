@@ -64,4 +64,18 @@ div {
 .layer-10 {
     width: 5vw;
     height: 5vh;
+    animation: layer-10 4s linear infinite;
+}
+
+
+@keyframes layer-10 {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
