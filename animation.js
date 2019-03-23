@@ -47,7 +47,13 @@ setInterval(function(){
             break;
         }
         default:
-        counter = 0;
+        {
+            counter = 0;
+            scale1 = 1.5;
+            scale2 = 1.5;
+            scale3 = 1.4;
+            scale4 = 0.3;
+        }
     }
     animate_layer_1();
     animate_layer_2();

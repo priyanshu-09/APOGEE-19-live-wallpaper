@@ -18,7 +18,7 @@ div {
 
 .cls-1 {
     fill: #fff;
-    transition: transform 2s;
+    transition: transform 1s linear;
 }
 
 .layer-1 {
