@@ -16,33 +16,37 @@ div {
     align-items: center;
 }
 
-.cls-1 {
-    fill: #fff;
-    transition: transform 1s linear;
-}
-
 .layer-1 {
     width: 90vw;
     height: 90vh;
-    overflow: visible;
+    opacity: 0;
+    animation: fade_anim 2s linear infinite;
+    /* animation: layer-10 4s linear infinite; */
+
 }
 
 .layer-2 {
     width: 83vw;
     height: 83vh;
-    overflow: visible;
+    opacity: 0;
+    animation: fade_anim 2s linear infinite 0.25s;
+
 }
 
 .layer-3 {
     width: 76vw;
     height: 76vh;
-    overflow: visible;
+    opacity: 0;
+    animation: fade_anim 2s linear infinite 0.5s;
+
 }
 
 .layer-4 {
     width: 69vw;
     height: 69vh;
-    overflow: visible;
+    opacity: 0;
+    animation: fade_anim 2s linear infinite 0.75s;
+
 }
 
 .layer-5 {
@@ -53,6 +57,8 @@ div {
 .layer-6 {
     width: 45vw;
     height: 45vh;
+    animation: layer-10 15s linear infinite;
+
 }
 
 .layer-7 {
@@ -68,6 +74,8 @@ div {
 .layer-9 {
     width: 29vw;
     height: 29vh;
+    animation: anticlockrot 15s linear infinite;
+
 }
 
 .layer-10 {
@@ -86,5 +94,27 @@ div {
     }
     100%{
         transform: rotate(360deg);
+    }
+}
+
+@keyframes fade_anim
+{
+    0%{opacity: 0;}
+    25%{opacity:0.5;}
+    50%{opacity: 1;}
+    75%{opacity: 0.5;}
+    100%{opacity:0;}
+}
+
+@keyframes anticlockrot
+{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
     }
 }
