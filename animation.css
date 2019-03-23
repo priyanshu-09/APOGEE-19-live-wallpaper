@@ -16,24 +16,33 @@ div {
     align-items: center;
 }
 
+.cls-1 {
+    fill: #fff;
+    transition: transform 2s;
+}
+
 .layer-1 {
     width: 90vw;
     height: 90vh;
+    overflow: visible;
 }
 
 .layer-2 {
     width: 83vw;
     height: 83vh;
+    overflow: visible;
 }
 
 .layer-3 {
     width: 76vw;
     height: 76vh;
+    overflow: visible;
 }
 
 .layer-4 {
     width: 69vw;
     height: 69vh;
+    overflow: visible;
 }
 
 .layer-5 {

@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.3 507.3">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.3 507.3">
         <defs>
             <style>
                 .cls-1 {
                     fill: #fff;
                     transition: transform 1s;
+                }
+                body{
+                    background: #000;
                 }
             </style>
         </defs>
@@ -85,3 +97,22 @@
             </g>
         </g>
     </svg>
+    <script>
+        setInterval(function(){
+            var scale = 0.5;
+            var path = document.getElementsByClassName("cls-1");
+            for(var i = 0; i < path.length; i++){
+                scaleElem(path[i], scale);
+            }
+        }, 1000);
+
+
+        function scaleElem(elem, scale) {
+            var originX = elem.getBBox().x + elem.getBBox().width/2;
+            var originY = elem.getBBox().y + elem.getBBox().height/2;
+            elem.style.transformOrigin = originX +"px "+ originY+"px";
+            elem.style.transform = "scale("+scale+")";
+        }
+    </script>
+</body>
+</html>
