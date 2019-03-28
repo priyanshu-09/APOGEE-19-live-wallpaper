@@ -258,8 +258,10 @@ div {
    color:lightgray;
    text-shadow: 3px 3px black;
    position: absolute;
+
    top: 47vh;
    width: 100%;
+   
    text-align: center;
    font-size: 3.5vw;
    letter-spacing: 2px;
