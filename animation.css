@@ -259,8 +259,9 @@ div {
    text-shadow: 3px 3px black;
    position: absolute;
    top: 47vh;
-   left: 29.5vw;
-   font-size: 2.7vw;
+   width: 100%;
+   text-align: center;
+   font-size: 3.5vw;
    letter-spacing: 2px;
   }
 
