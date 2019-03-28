@@ -256,6 +256,7 @@ div {
   {
    font-family: hey2;
    color:lightgray;
+   text-shadow: 3px 3px black;
    position: absolute;
    top: 50vh;
    left: 55vw;
