@@ -1,12 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background-image: url('Mesa de trabajo 1 copia@2x (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
-
+.oasis{
+  height: 70%;
+  width: 85%;
+}
 div {
     position: absolute;
     width: 100%;
@@ -17,8 +23,8 @@ div {
 }
 
 .layer-1 {
-    width: 91vw;
-    height: 91vh;
+    width: 100vw;
+    height: 100vh;
     opacity: 0;
     animation: fade_anim 2s linear infinite;
     /* animation: layer-10 4s linear infinite; */
@@ -26,77 +32,77 @@ div {
 }
 
 .layer-2 {
-    width: 84vw;
-    height: 84vh;
+    width: 92vw;
+    height: 92vh;
     opacity: 0;
     animation: fade_anim 2s linear infinite 0.2s;
 
 }
 
 .layer-3 {
-    width: 77vw;
-    height: 77vh;
+    width: 83vw;
+    height: 83vh;
     opacity: 0;
     animation: fade_anim 2s linear infinite 0.36s;
 
 }
 
 .layer-4 {
-    width: 70vw;
-    height: 70vh;
+    width: 77vw;
+    height: 77vh;
     opacity: 0;
     animation: fade_anim 2s linear infinite 0.52s;
 
 }
 
 .layer-a {
-  width: 63vw;
-  height: 63vh;
+  width: 70vw;
+  height: 70vh;
   opacity: 0;
   animation: fade_anim 2s linear infinite 0.68s;
 
 }
 
 .layer-b {
-  width: 56vw;
-  height: 56vh;
+  width: 61vw;
+  height: 61vh;
   opacity: 0;
   animation: fade_anim 2s linear infinite 0.84s;
 
 }
 
 .layer-5 {
-    width: 50vw;
-    height: 50vh;
+    width: 57vw;
+    height: 57vh;
 }
 
 .layer-6 {
-    width: 45vw;
-    height: 45vh;
+    width: 52vw;
+    height: 52vh;
     animation: layer-10 15s linear infinite;
 
 }
 
 .layer-7 {
-    width: 37vw;
-    height: 37vh;
+    width: 44vw;
+    height: 44vh;
 }
 
 .layer-8 {
-    width: 37vw;
-    height: 37vh;
+    width: 44vw;
+    height: 44vh;
 }
 
 .layer-9 {
-    width: 29vw;
-    height: 29vh;
+    width: 36vw;
+    height: 36vh;
     animation: anticlockrot 15s linear infinite;
 
 }
 
 .layer-10 {
-    width: 5vw;
-    height: 5vh;
+    width: 12vw;
+    height: 12vh;
     animation: layer-10 4s linear infinite;
 }
 
@@ -148,7 +154,7 @@ div {
     font-family: hey;
     src: url("SparTakus.ttf");
   }
-  .glitch {
+  /*.glitch {
     font-size: 10vw;
     line-height: 1;
     font-family: hey;
@@ -163,7 +169,7 @@ div {
   }
   .glitch:before, .glitch:after {
     display: block;
-    content: 'APOGEE';
+    content: 'OASIS';
     position: absolute;
     top: 0;
     left: 0;
@@ -244,7 +250,7 @@ div {
     to {
       transform: translate(0);
     }
-  }
+  }*/
 
   @font-face
   {
@@ -261,7 +267,6 @@ div {
 
    top: 47vh;
    width: 100%;
-   
    text-align: center;
    font-size: 3.5vw;
    letter-spacing: 2px;
